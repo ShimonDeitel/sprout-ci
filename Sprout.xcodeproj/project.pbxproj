@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E7EE7AD689E9071394D190C /* ChildEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F61FF6B58AD717585E2CC8 /* ChildEditorView.swift */; };
+		209AEE4343B39A5E4BF142EB /* GeneratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD421EEB324421A4A1D492D /* GeneratingView.swift */; };
+		216268EC1D12A9B1F26A218B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3EC1ED066F08C7F254E5E /* AppModel.swift */; };
+		3D22D457E08C2237EAFD32B8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 935E0B87D8DDA4130D990831 /* PrivacyInfo.xcprivacy */; };
+		5A19AB612D4147A7DC954ED0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379C0D8062E3C12065109AC3 /* Models.swift */; };
+		602A2D86D0BB5EA9BEAF3A09 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8182D0C40FB68E138CF6D615 /* Components.swift */; };
+		696A6DFACD3716239B3CB837 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB933AB3CB76CB5C4DEA90B /* Design.swift */; };
+		73F2AEE06EBD6BEDCB66A835 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB668F4A9AC24AD4D0B6080 /* PaywallView.swift */; };
+		74989865C4D185690D2D6466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E108E82BCFB3F5AB1F97C5 /* Assets.xcassets */; };
+		7C60FCCB13CEB18319B671B0 /* Narrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7249023B85445A972EFA1489 /* Narrator.swift */; };
+		82C07C5335D037DEDDC883E7 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDDDCF88857D32D8D4B1B07 /* ReaderView.swift */; };
+		883E3DD01916E0C18CB6AD9B /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA363BDF34DAA24F284A252 /* ColorHex.swift */; };
+		8AE2B01B14414C35FFC16DF9 /* SproutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1650E3A298E38792ED5B97F /* SproutUITests.swift */; };
+		8B0B8DEDF9DFB1D1AD854600 /* SproutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F61E07E32EA45C07E9692 /* SproutApp.swift */; };
+		9611C18C0DA136AE045CD8DF /* TonightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C29F612EEBDCEC02F4F9 /* TonightView.swift */; };
+		9B9AD07C2372F5642C99D102 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D984B9E0B076B305143B8 /* SettingsView.swift */; };
+		A6938B84540E8A1B5709C221 /* Sprout.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 53D753EE93B3494211534F14 /* Sprout.storekit */; };
+		A985C94C36529BCA6FBA5FB8 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E77BD6B5AB68E9072F0DB06 /* LibraryView.swift */; };
+		C2D02D43E40CF7C4F89D2865 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C2A957C9A7E5E5428A8FEA /* RootView.swift */; };
+		C69211CFF1A9E0BFB14541EB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602E835FC8295B60F181BE2 /* Store.swift */; };
+		DF6B17BB5BEB03CA60565745 /* AIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA3C3C815928898F718140 /* AIClient.swift */; };
+		E26D3F52E3CA19DFEDB36088 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC846C8A09256FC548B90913 /* SetupView.swift */; };
+		F3A62B8BE295F63DE52CE6DF /* SproutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B897480BC46902F9B7E0C06F /* SproutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2030814BF1682CBD6ABCD7DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0005D624A6935E83D7CF28A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A478F3AEF1FB11D68C21A5;
+			remoteInfo = Sprout;
+		};
+		2C5D6BF43788C32AE161E8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0005D624A6935E83D7CF28A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0A478F3AEF1FB11D68C21A5;
+			remoteInfo = Sprout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0602E835FC8295B60F181BE2 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		0EB668F4A9AC24AD4D0B6080 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		24B0FD72D2B478A2651BA031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		379C0D8062E3C12065109AC3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		37A82ADDB3AFA5508860CC94 /* Sprout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sprout.entitlements; sourceTree = "<group>"; };
+		3AD3EC1ED066F08C7F254E5E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		3CA363BDF34DAA24F284A252 /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		53D753EE93B3494211534F14 /* Sprout.storekit */ = {isa = PBXFileReference; path = Sprout.storekit; sourceTree = "<group>"; };
+		6BCA3C3C815928898F718140 /* AIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIClient.swift; sourceTree = "<group>"; };
+		70C2A957C9A7E5E5428A8FEA /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7249023B85445A972EFA1489 /* Narrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Narrator.swift; sourceTree = "<group>"; };
+		8182D0C40FB68E138CF6D615 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		84F61FF6B58AD717585E2CC8 /* ChildEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildEditorView.swift; sourceTree = "<group>"; };
+		8E77BD6B5AB68E9072F0DB06 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		935E0B87D8DDA4130D990831 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9D5D984B9E0B076B305143B8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A1FE3642753661630AB2BB3C /* Sprout.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Sprout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F9C29F612EEBDCEC02F4F9 /* TonightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TonightView.swift; sourceTree = "<group>"; };
+		AC846C8A09256FC548B90913 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		AFDDDCF88857D32D8D4B1B07 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		B70F61E07E32EA45C07E9692 /* SproutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutApp.swift; sourceTree = "<group>"; };
+		B897480BC46902F9B7E0C06F /* SproutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutTests.swift; sourceTree = "<group>"; };
+		BBB933AB3CB76CB5C4DEA90B /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		BC792221F45F26AEC7DDF7FD /* SproutUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SproutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1650E3A298E38792ED5B97F /* SproutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutUITests.swift; sourceTree = "<group>"; };
+		E3E108E82BCFB3F5AB1F97C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1132B5A3BF1C3FD2E869B8 /* SproutTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SproutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD421EEB324421A4A1D492D /* GeneratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		063E1516E52AA50F6A3FA27F /* SproutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B897480BC46902F9B7E0C06F /* SproutTests.swift */,
+			);
+			path = SproutTests;
+			sourceTree = "<group>";
+		};
+		6629E5CDD2AF72FA59CCAA13 = {
+			isa = PBXGroup;
+			children = (
+				E29124DBAAB145DF7711D24C /* Shared */,
+				7C7841C8CBE3F35C43ADC516 /* Sprout */,
+				063E1516E52AA50F6A3FA27F /* SproutTests */,
+				FF0EF2DFA5613FA108448B31 /* SproutUITests */,
+				53D753EE93B3494211534F14 /* Sprout.storekit */,
+				A3C8C0699A644DD9E48CC7CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C7841C8CBE3F35C43ADC516 /* Sprout */ = {
+			isa = PBXGroup;
+			children = (
+				6BCA3C3C815928898F718140 /* AIClient.swift */,
+				3AD3EC1ED066F08C7F254E5E /* AppModel.swift */,
+				E3E108E82BCFB3F5AB1F97C5 /* Assets.xcassets */,
+				84F61FF6B58AD717585E2CC8 /* ChildEditorView.swift */,
+				8182D0C40FB68E138CF6D615 /* Components.swift */,
+				BBB933AB3CB76CB5C4DEA90B /* Design.swift */,
+				FCD421EEB324421A4A1D492D /* GeneratingView.swift */,
+				24B0FD72D2B478A2651BA031 /* Info.plist */,
+				8E77BD6B5AB68E9072F0DB06 /* LibraryView.swift */,
+				379C0D8062E3C12065109AC3 /* Models.swift */,
+				7249023B85445A972EFA1489 /* Narrator.swift */,
+				0EB668F4A9AC24AD4D0B6080 /* PaywallView.swift */,
+				935E0B87D8DDA4130D990831 /* PrivacyInfo.xcprivacy */,
+				AFDDDCF88857D32D8D4B1B07 /* ReaderView.swift */,
+				70C2A957C9A7E5E5428A8FEA /* RootView.swift */,
+				9D5D984B9E0B076B305143B8 /* SettingsView.swift */,
+				AC846C8A09256FC548B90913 /* SetupView.swift */,
+				37A82ADDB3AFA5508860CC94 /* Sprout.entitlements */,
+				B70F61E07E32EA45C07E9692 /* SproutApp.swift */,
+				0602E835FC8295B60F181BE2 /* Store.swift */,
+				A4F9C29F612EEBDCEC02F4F9 /* TonightView.swift */,
+			);
+			path = Sprout;
+			sourceTree = "<group>";
+		};
+		A3C8C0699A644DD9E48CC7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE3642753661630AB2BB3C /* Sprout.app */,
+				EA1132B5A3BF1C3FD2E869B8 /* SproutTests.xctest */,
+				BC792221F45F26AEC7DDF7FD /* SproutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29124DBAAB145DF7711D24C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3CA363BDF34DAA24F284A252 /* ColorHex.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FF0EF2DFA5613FA108448B31 /* SproutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1650E3A298E38792ED5B97F /* SproutUITests.swift */,
+			);
+			path = SproutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00AB10705A8E5E4FCB6934A7 /* SproutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0C60A3306C2D6F384E7340 /* Build configuration list for PBXNativeTarget "SproutTests" */;
+			buildPhases = (
+				8783FE2C1C42A8ED6FCB4D53 /* Sources */,
+				F382F8A98315F5A3E54BB60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351A465A88AB0C2F43D35454 /* PBXTargetDependency */,
+			);
+			name = SproutTests;
+			packageProductDependencies = (
+			);
+			productName = SproutTests;
+			productReference = EA1132B5A3BF1C3FD2E869B8 /* SproutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74796BCF630DF2307F5AF816 /* SproutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69240987A3D053A4DBC18C87 /* Build configuration list for PBXNativeTarget "SproutUITests" */;
+			buildPhases = (
+				50087A7F1431ACC25774EADE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3B572C0CCCDE784201401A3 /* PBXTargetDependency */,
+			);
+			name = SproutUITests;
+			packageProductDependencies = (
+			);
+			productName = SproutUITests;
+			productReference = BC792221F45F26AEC7DDF7FD /* SproutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A0A478F3AEF1FB11D68C21A5 /* Sprout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3DBF56E848E02A3E7C4439 /* Build configuration list for PBXNativeTarget "Sprout" */;
+			buildPhases = (
+				8CCCDC17F05818BF2CB7DA8C /* Sources */,
+				EC69F0736F64C357459CD7F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sprout;
+			packageProductDependencies = (
+			);
+			productName = Sprout;
+			productReference = A1FE3642753661630AB2BB3C /* Sprout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0005D624A6935E83D7CF28A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00AB10705A8E5E4FCB6934A7 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					74796BCF630DF2307F5AF816 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0A478F3AEF1FB11D68C21A5;
+					};
+					A0A478F3AEF1FB11D68C21A5 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0B9B0EDDC21CB9F4D24D67F /* Build configuration list for PBXProject "Sprout" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6629E5CDD2AF72FA59CCAA13;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3C8C0699A644DD9E48CC7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A478F3AEF1FB11D68C21A5 /* Sprout */,
+				00AB10705A8E5E4FCB6934A7 /* SproutTests */,
+				74796BCF630DF2307F5AF816 /* SproutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC69F0736F64C357459CD7F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74989865C4D185690D2D6466 /* Assets.xcassets in Resources */,
+				3D22D457E08C2237EAFD32B8 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F382F8A98315F5A3E54BB60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6938B84540E8A1B5709C221 /* Sprout.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50087A7F1431ACC25774EADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE2B01B14414C35FFC16DF9 /* SproutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8783FE2C1C42A8ED6FCB4D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A62B8BE295F63DE52CE6DF /* SproutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCCDC17F05818BF2CB7DA8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6B17BB5BEB03CA60565745 /* AIClient.swift in Sources */,
+				216268EC1D12A9B1F26A218B /* AppModel.swift in Sources */,
+				0E7EE7AD689E9071394D190C /* ChildEditorView.swift in Sources */,
+				883E3DD01916E0C18CB6AD9B /* ColorHex.swift in Sources */,
+				602A2D86D0BB5EA9BEAF3A09 /* Components.swift in Sources */,
+				696A6DFACD3716239B3CB837 /* Design.swift in Sources */,
+				209AEE4343B39A5E4BF142EB /* GeneratingView.swift in Sources */,
+				A985C94C36529BCA6FBA5FB8 /* LibraryView.swift in Sources */,
+				5A19AB612D4147A7DC954ED0 /* Models.swift in Sources */,
+				7C60FCCB13CEB18319B671B0 /* Narrator.swift in Sources */,
+				73F2AEE06EBD6BEDCB66A835 /* PaywallView.swift in Sources */,
+				82C07C5335D037DEDDC883E7 /* ReaderView.swift in Sources */,
+				C2D02D43E40CF7C4F89D2865 /* RootView.swift in Sources */,
+				9B9AD07C2372F5642C99D102 /* SettingsView.swift in Sources */,
+				E26D3F52E3CA19DFEDB36088 /* SetupView.swift in Sources */,
+				8B0B8DEDF9DFB1D1AD854600 /* SproutApp.swift in Sources */,
+				C69211CFF1A9E0BFB14541EB /* Store.swift in Sources */,
+				9611C18C0DA136AE045CD8DF /* TonightView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351A465A88AB0C2F43D35454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A478F3AEF1FB11D68C21A5 /* Sprout */;
+			targetProxy = 2030814BF1682CBD6ABCD7DC /* PBXContainerItemProxy */;
+		};
+		B3B572C0CCCDE784201401A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0A478F3AEF1FB11D68C21A5 /* Sprout */;
+			targetProxy = 2C5D6BF43788C32AE161E8DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C087F13717D98BE719385AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.sprout.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprout.app/Sprout";
+			};
+			name = Release;
+		};
+		222E029BB33C7D3C1AC1AF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.sprout.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Sprout;
+			};
+			name = Debug;
+		};
+		48F95876F0C2B21DE08AB1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sprout/Sprout.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sprout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.sprout;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8132BCBE446FF9ACBED757E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8ED04D84FD5C60E1FEE14A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.sprout.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sprout.app/Sprout";
+			};
+			name = Debug;
+		};
+		9653F4D3CADEA1C5253CDFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sprout/Sprout.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sprout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.sprout;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CDA49747A7360198419068E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB6B356F1CE07A81FA6662D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.sprout.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Sprout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3DBF56E848E02A3E7C4439 /* Build configuration list for PBXNativeTarget "Sprout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653F4D3CADEA1C5253CDFB1 /* Debug */,
+				48F95876F0C2B21DE08AB1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69240987A3D053A4DBC18C87 /* Build configuration list for PBXNativeTarget "SproutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222E029BB33C7D3C1AC1AF8C /* Debug */,
+				EB6B356F1CE07A81FA6662D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A0C60A3306C2D6F384E7340 /* Build configuration list for PBXNativeTarget "SproutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED04D84FD5C60E1FEE14A74 /* Debug */,
+				0C087F13717D98BE719385AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0B9B0EDDC21CB9F4D24D67F /* Build configuration list for PBXProject "Sprout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8132BCBE446FF9ACBED757E7 /* Debug */,
+				CDA49747A7360198419068E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0005D624A6935E83D7CF28A5 /* Project object */;
+}

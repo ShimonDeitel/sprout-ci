@@ -1,0 +1,53 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "SPROUT_STOREKIT_CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "SPROUT_PRO_GROUP",
+      "localizations" : [],
+      "name" : "Sprout Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "sprout_pro_monthly_id",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited personalized bedtime stories, multiple voices and styles, multi-child profiles, longer chapter stories, and audio keepsake export.",
+              "displayName" : "Sprout Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "sprout_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Sprout Pro Monthly",
+          "subscriptionGroupID" : "SPROUT_PRO_GROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
